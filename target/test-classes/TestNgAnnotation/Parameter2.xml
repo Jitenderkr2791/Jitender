@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+	  <classes>
+		  <class name="TestNgAnnotation.Parameter">
+			  <parameter name="i" value="3"/>
+			  <parameter name="j" value="2"/>
+			  <methods>
+				<include name="Addition"/>
+				<exclude name="Subtraction"/>
+				<exclude name="Multiplication"/>				  
+			  </methods>
+		  </class>
+	  </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test2">
+	  <classes>
+		  <class name="TestNgAnnotation.Parameter2">
+			  <parameter name="i" value="5"/>
+			  <parameter name="j" value="3"/>
+			  <methods>
+				<include name="Addition"/>
+				<include name="Subtraction"/>
+				<include name="Multiplication"/>				  
+			  </methods>
+		  </class>
+	  </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test3">
+	  <classes>
+		  <class name="TestNgAnnotation.Parameter2">
+			  <parameter name="i" value="8"/>
+			  <parameter name="j" value="6"/>
+			  <methods>
+				<include name="Addition"/>
+				<include name="Subtraction"/>
+				<include name="Multiplication"/>				  
+			  </methods>
+		  </class>
+	  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

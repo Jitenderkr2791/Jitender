@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNgAnnotation.Description"/>
+      <class name="TestNgAnnotation.Annotation2"/>
+      <class name="TestNgAnnotation.Groups"/>
+      <class name="TestNgAnnotation.Timeout"/>
+      <class name="TestNgAnnotation.DataProviders"/>
+      <class name="TestNgAnnotation.Annotation"/>
+      <class name="TestNgAnnotation.ParallelTestDemo1"/>
+      <class name="TestNgAnnotation.ParallelTestDemo2"/>
+      <class name="TestNgAnnotation.Priority"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

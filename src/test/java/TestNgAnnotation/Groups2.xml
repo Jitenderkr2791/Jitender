@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/automation project/AutomationDemo/src/test/java/TestNgAnnotations/Groups.java">
+        <classes>
+            <class name="TestNgAnnotations.Groups">
+                <methods>
+                    <include name="infosys"/>
+                    <include name="Accenture"/>
+                    <include name="honda"/>
+                    <include name="tata"/>
+                    <include name="Maruti"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
